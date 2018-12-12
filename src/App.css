@@ -1,0 +1,167 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  display: none;
+}
+
+.modernHosting {
+  /*background: red;*/
+  background-image: url(/img/hosting-layer.png);
+  /*width: 100%;*/
+  max-width: 1233px;
+  min-height:306px;
+  background-size: cover;
+  
+  font-size: 100%;
+  
+  font-size: 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+
+.helloText {
+  font-family: "Open Sans";
+  font-size: 2.5em;
+  color:white;
+  padding-top: 0em; 
+  text-transform: uppercase;
+}
+
+.helloSpan{
+  display: block;
+  font-size: 1.430734em;
+  line-height: 1em;
+  padding-bottom: 2em;
+  color:white;
+  text-transform: uppercase;
+}
+
+.Mobile img,
+.Pc img {
+  padding: 2em;
+}
+.App-link {
+  color: #61dafb;
+}
+.show-grid button  {
+  background: transparent;
+  border:none;
+  height: 50px;
+  padding: 0.5em;
+}
+
+.show-grid button:hover{
+  background: #ccc;
+  border-radius: 27px;
+  box-shadow: 1px 1px 1px black;
+  color:white;
+}
+.show-grid .price {
+  font-weight: 400;
+  font-size: 1.3em;
+}
+.show-grid .price span {
+  font-weight: 700;
+  font-size: 2em;
+}
+.show-grid .li {
+  list-style-type: none;
+  text-align: left;
+}
+
+.containerOfPlans .title {
+  height: 45px;
+  line-height: 45px;
+  margin-top: 20px;
+}
+
+.wpPlan:hover,
+.standartPlan:hover,
+.ecommercePlan:hover,
+.masterPlan:hover {
+  background: #ccc;
+  color:red;
+}
+
+.wpPlan .title{
+  background: #2396d5;
+  color: white;
+}
+
+.wpPlan button:hover {
+  background: #2396d5;
+}
+
+.standartPlan .title{
+  background:#234f8a;
+  color: white;
+}
+
+.standartPlan button:hover {
+  background: #234f8a;
+}
+
+.containerOfPlans div {
+  border:1px solid #ccc;
+  box-sizing: border-box;
+  padding: 1.5em;
+  /* padding: 0;
+    margin: 1%; */
+}
+
+.containerOfPlans .col-md-3 {
+  /* width: 23%; */
+}
+
+.ecommercePlan .title{
+  background: #00ad5d;
+  color: white;
+}
+
+.ecommercePlan button:hover {
+  background: #2396d5;
+}
+
+.masterPlan .title{
+  background: #d94630;
+  color: white;
+}
+
+.masterPlan button:hover {
+  background: #2396d5;
+}
+@media screen and (min-width:768px)  {
+  .helloText { 
+    padding-top: 2em; 
+    font-size: 3.5em;
+  }
+
+  .helloSpan{ 
+    font-size: 1.930734em;
+  }
+  
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
